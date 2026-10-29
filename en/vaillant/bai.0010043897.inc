@@ -208,12 +208,12 @@ w,,install,PrEnergyCountHc3,PrEnergyCountCH3_DK: Predictive Maintenance data,,,b
 [id_15_id='EMM00']w,,,Date,date,,,b524,020100003400,value,,HDA:3,,,current date
 [id_15_id='EMM00']r,,,Time,time,,,b524,020000003500,ign,,IGN:4,,,,value,,HTI,,,current time
 [id_15_id='EMM00']w,,,Time,time,,,b524,020100003500,value,,HTI,,,current time
-[id_15_id='EMM00']r,,,WaterPressure,water pressure,,,b524,020000003900,ign,,IGN:4,,,,value,,EXP,,bar,water pressure
+[id_15_id='EMM00']r,,,WaterPressureEMM,water pressure,,,b524,020000003900,ign,,IGN:4,,,,value,,EXP,,bar,water pressure
 [id_15_id='EMM00']r,,,DisplayedOutsideTemp,outside temperature,,,b524,020000007300,ign,,IGN:4,,,,value,,EXP,,°C,outside temperature
 [id_15_id='EMM00']r,,,HwcOpMode,HwcOpMode,,,b524,020001000300,ign,,IGN:4,,,,value,,UIN,0=off;1=auto;2=day;3=night,,operation mode of Hwc
 [id_15_id='EMM00']w,,,HwcOpMode,HwcOpMode,,,b524,020101000300,value,,UIN,0=off;1=auto;2=day;3=night,,operation mode of Hwc
-[id_15_id='EMM00']r,,,HwcTempDesired,gewünschte Temperatur Warmwasserkreis,,,b524,020001000400,ign,,IGN:4,,,,value,,EXP,,°C,setpoint of domestic hot water circuit
-[id_15_id='EMM00']w,,,HwcTempDesired,gewünschte Temperatur Warmwasserkreis,,,b524,020101000400,value,,EXP,,°C,setpoint of domestic hot water circuit
+[id_15_id='EMM00']r,,,HwcTempDesiredEMM,gewünschte Temperatur Warmwasserkreis,,,b524,020001000400,ign,,IGN:4,,,,value,,EXP,,°C,setpoint of domestic hot water circuit
+[id_15_id='EMM00']w,,,HwcTempDesiredEMM,gewünschte Temperatur Warmwasserkreis,,,b524,020101000400,value,,EXP,,°C,setpoint of domestic hot water circuit
 [id_15_id='EMM00']r,,,HwcStorageTemp,HwcStorageTemp,,,b524,020001000500,ign,,IGN:4,,,,value,,EXP,,°C,current hot water storage temperature
 [id_15_id='EMM00']r,,,HwcHolidayStartPeriod,hwc holiday start period,,,b524,020001000900,ign,,IGN:4,,,,value,,HDA:3,,,start date of holidays
 [id_15_id='EMM00']w,,,HwcHolidayStartPeriod,hwc holiday start period,,,b524,020101000900,value,,HDA:3,,,start date of holidays
